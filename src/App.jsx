@@ -3,7 +3,7 @@ import { useState } from 'react'
 function App() {
  const[count,setCount]= useState(10);
  function addOne(){
- 
+  setCount(count+1);
  }
   return (
     <div className="App">
